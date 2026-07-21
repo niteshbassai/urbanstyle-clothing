@@ -350,3 +350,70 @@ footer{
     display:inline-block;
 
 }
+.product-details{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:60px;
+
+    padding:80px;
+
+}
+
+
+
+.product-details img{
+
+    width:400px;
+
+    height:450px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+}
+
+
+
+.product-info{
+
+    max-width:500px;
+
+}
+
+
+
+.product-info h1{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:45px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.product-info h2{
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.product-info p{
+
+    line-height:1.8;
+
+    margin-bottom:20px;
+
+}
