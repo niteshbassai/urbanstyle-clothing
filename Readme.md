@@ -6,7 +6,7 @@ UrbanStyle Clothing is an e-commerce fashion store website designed to showcase 
 
 The website allows customers to browse products, view product details, and contact the company through a simple and user-friendly interface.
 
-This project was created using HTML, CSS, JavaScript, Git, and GitHub as part of a web development final project.
+This project was created using HTML, CSS, Git, and GitHub as part of a web development final project.
 
 ---
 
@@ -62,7 +62,6 @@ The main objectives of UrbanStyle Clothing are:
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## Development Tools
 
@@ -101,8 +100,6 @@ urbanstyle-clothing
 │   ├── shoes.html
 │   └── handbag.html
 │
-├── js
-│   └── script.js
 │
 └── docs
     └── wireframes.md
@@ -302,7 +299,7 @@ Future database implementation will contain the following tables:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/urbanstyle-clothing.git
+git clone https://github.com/niteshbassai/urbanstyle-clothing.git
 ```
 
 ## Open Project
