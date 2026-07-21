@@ -1,58 +1,77 @@
 # UrbanStyle Clothing
 
+![UrbanStyle Clothing](https://img.shields.io/badge/Project-E--Commerce%20Fashion%20Store-black)
+
 ## Project Overview
 
-UrbanStyle Clothing is an e-commerce fashion store website designed to showcase and sell modern clothing, footwear, handbags, and fashion accessories.
+UrbanStyle Clothing is a modern e-commerce fashion website designed to showcase clothing, footwear, handbags, and fashion accessories.
 
-The website allows customers to browse products, view product details, and contact the company through a simple and user-friendly interface.
+The website provides customers with a clean and user-friendly shopping experience where they can explore products, view product details, and contact the company.
 
-This project was created using HTML, CSS, Git, and GitHub as part of a web development final project.
+This project was developed using HTML5 and CSS3 with GitHub for version control and Netlify for deployment.
 
 ---
 
-## Project Objectives
+# Live Website
+
+The completed website is available online:
+
+🔗 https://urbanstyle-clothing.netlify.app/
+
+---
+
+# Project Objectives
 
 The main objectives of UrbanStyle Clothing are:
 
-- Create a professional online fashion store
-- Design a clean and attractive user interface
-- Display fashion products in an organized catalogue
+- Create a professional fashion store website
+- Develop a clean and attractive user interface
+- Display products in an organized catalogue
 - Provide detailed product information
-- Build a foundation for future e-commerce features
+- Demonstrate HTML and CSS web development skills
 
 ---
 
 # Features
 
-## Customer Pages
+## Customer-Facing Pages
 
 ### Homepage
+
 - Brand introduction
 - Hero section
 - Featured collections
 - Navigation menu
 
+
 ### About Page
-- Company information
+
+- Company background
 - Brand mission
 - Company values
 
+
 ### Shop Page
+
 - Product catalogue
 - Product cards
-- Product prices
 - Product descriptions
+- Product pricing
+
 
 ### Product Pages
-- Individual product details
+
+- Individual product information
 - Product images
-- Product information
+- Product descriptions
 - Product categories
 
+
 ### Contact Page
-- Customer contact form
+
+- Customer inquiry form
 - Business information
-- Communication details
+- Contact details
 
 ---
 
@@ -68,6 +87,7 @@ The main objectives of UrbanStyle Clothing are:
 - Visual Studio Code
 - GitHub Desktop
 - GitHub
+- Netlify
 - Live Server Extension
 
 ---
@@ -84,6 +104,7 @@ urbanstyle-clothing
 │   └── style.css
 │
 ├── images
+│   ├── fashion-banner.jpg
 │   ├── tshirt.jpg
 │   ├── hoodie.jpg
 │   ├── shoes.jpg
@@ -100,7 +121,6 @@ urbanstyle-clothing
 │   ├── shoes.html
 │   └── handbag.html
 │
-│
 └── docs
     └── wireframes.md
 ```
@@ -116,6 +136,7 @@ urbanstyle-clothing
 Black (#111111)
 
 Used for:
+
 - Navigation bar
 - Buttons
 - Footer
@@ -127,8 +148,9 @@ Used for:
 White (#FFFFFF)
 
 Used for:
-- Website backgrounds
-- Main content areas
+
+- Website background
+- Content sections
 
 
 ### Accent Colour
@@ -136,15 +158,16 @@ Used for:
 Light Grey (#F4F4F4)
 
 Used for:
+
 - Hero sections
 - Product cards
-- Content sections
+- Content areas
 
 ---
 
 # Typography
 
-The website uses two different fonts:
+The website uses two different Google Fonts:
 
 ## Playfair Display
 
@@ -165,111 +188,22 @@ Used for:
 
 ---
 
-# Website Pages
-
-## Homepage Layout
-
-```text
---------------------------------
-
-Navigation Bar
-
---------------------------------
-
-Hero Section
-
-Brand Heading
-Description
-Shop Button
-
---------------------------------
-
-Featured Products
-
-Product Cards
-
---------------------------------
-
-Footer
-
---------------------------------
-```
-
----
-
-## Shop Page Layout
-
-```text
---------------------------------
-
-Navigation Bar
-
---------------------------------
-
-Shop Heading
-
---------------------------------
-
-Product Grid
-
-Product | Product | Product
-
-Product | Product | Product
-
---------------------------------
-
-Footer
-
---------------------------------
-```
-
----
-
-## Product Page Layout
-
-```text
---------------------------------
-
-Navigation Bar
-
---------------------------------
-
-Product Image
-
-Product Name
-
-Product Price
-
-Description
-
-Add To Cart Button
-
---------------------------------
-
-Footer
-
---------------------------------
-```
-
----
-
 # Database Structure Plan
 
-Future database implementation will contain the following tables:
+Future database implementation will include:
 
 ## Products Table
 
 | Field | Description |
 |---|---|
 | product_id | Unique product identifier |
-| product_name | Name of product |
+| product_name | Product name |
 | category | Product category |
 | description | Product details |
 | price | Product price |
 | image | Product image |
 | stock_quantity | Available stock |
 
----
 
 ## Customers Table
 
@@ -279,9 +213,8 @@ Future database implementation will contain the following tables:
 | first_name | Customer first name |
 | last_name | Customer last name |
 | email | Customer email |
-| phone | Customer phone number |
+| phone | Customer contact |
 
----
 
 ## Orders Table
 
@@ -290,53 +223,115 @@ Future database implementation will contain the following tables:
 | order_id | Unique order identifier |
 | customer_id | Customer reference |
 | order_date | Purchase date |
-| total_amount | Total order price |
+| total_amount | Total order cost |
 
 ---
 
-# Installation Instructions
+# Wireframe Planning
 
-## Clone Repository
-
-```bash
-git clone https://github.com/niteshbassai/urbanstyle-clothing.git
-```
-
-## Open Project
-
-Open the project folder using Visual Studio Code.
-
-## Run Website
-
-Open:
+## Homepage
 
 ```text
-index.html
+----------------------------
+
+Navigation Bar
+
+----------------------------
+
+Hero Section
+
+Brand Message
+Shop Button
+
+----------------------------
+
+Featured Products
+
+----------------------------
+
+Footer
+
+----------------------------
 ```
 
-using the Live Server extension.
+## Shop Page
+
+```text
+----------------------------
+
+Navigation Bar
+
+----------------------------
+
+Shop Heading
+
+----------------------------
+
+Product Grid
+
+Product | Product | Product
+
+Product | Product | Product
+
+----------------------------
+
+Footer
+
+----------------------------
+```
+
+## Product Page
+
+```text
+----------------------------
+
+Navigation Bar
+
+----------------------------
+
+Product Image
+
+Product Name
+
+Price
+
+Description
+
+----------------------------
+
+Footer
+
+----------------------------
+```
+
+---
+
+# Deployment
+
+The website has been deployed using Netlify.
+
+Deployment Link:
+
+https://urbanstyle-clothing.netlify.app/
 
 ---
 
 # Future Improvements
 
-Future updates may include:
+Possible future improvements include:
 
 - Shopping cart functionality
-- Customer accounts
-- Online payment system
+- User accounts
 - Product database integration
+- Online payment system
 - Search functionality
 - Admin dashboard
-- Order management system
 
 ---
 
 # Git Commit History
 
-The project follows regular Git version control practices.
-
-Example commits:
+The project was developed using regular Git commits:
 
 ```text
 Initial project structure for UrbanStyle Clothing website
@@ -352,6 +347,12 @@ Create individual product pages for fashion catalogue
 Create contact page with customer inquiry form
 
 Add project documentation, wireframes, and database planning
+
+Add responsive design for mobile and tablet devices
+
+Improve website design with animations and modern styling
+
+Deploy website and update project documentation
 ```
 
 ---
